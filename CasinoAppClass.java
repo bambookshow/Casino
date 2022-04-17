@@ -119,7 +119,7 @@ public class CasinoAppClass {
 
                     System.out.println("\nПора определить победителя!\nНажмите Enter");
                     scan.nextLine();
-
+                    user.summNumbRound = user.numbRound1 + user.numbRound2 + user.numbRound3;
                     System.out.println("Ваш результат за три раунда: " + user.numbRound1 + " + " + user.numbRound2 + " + " + user.numbRound3 + " = " + user.summNumbRound + "\n");
 
                     ArrayList<Integer> summEnemRound = new ArrayList<>();

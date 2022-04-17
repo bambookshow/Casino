@@ -7,5 +7,5 @@ public class User {
     int numbRound1;
     int numbRound2;
     int numbRound3;
-    int summNumbRound = numbRound1 + numbRound2 + numbRound3;
+    int summNumbRound;
 }
