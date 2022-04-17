@@ -5,5 +5,5 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Enemies {
-    Integer data;
+    Integer quantity;
 }
